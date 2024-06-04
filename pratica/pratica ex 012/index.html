@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Midias em HTML 5</title>
+</head>
+<body>
+  <h1>Imagem Dinamica</h1>
+  <p>Tente abrir esse site em varios dispositivos diferentes ou simplismente aumente e diminua o tamanho da tela</p>
+  <picture>
+    <source media="(max-width: 750px)" srcset="Imagens/imagem-p.png" type="image/png">
+    <source media="(max-width: 1050px)" srcset="Imagens/imagem-m.png" type="image/png">
+    <img src="Imagens/imagem-g.png" alt="imagem flexivel">
+  </picture>
+  <h1>Reproduzindo áudio</h1>
+  <p>Vamos aprender a reproduzir audio em HTML5</p>
+  <audio controls autoplay>
+    <source src="midia/July - John Patitucci.mp3" type="audio/mpeg">
+    <source src="midia/July - John Patitucci.ogg" type="audio/ogg">
+    <source src="midia/July - John Patitucci.wav" type="audio/wav">
+  </audio>
+  <p>Quaso seu Navegador não possa abrir o audio,<a href="midia/July - John Patitucci.mp3" download="midia/july - john patitucci.mp3">Clique aqui</a> para baixar</p>
+
+  
+</body>
+</html>

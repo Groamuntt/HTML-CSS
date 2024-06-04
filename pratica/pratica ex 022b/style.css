@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+body{
+ background-image: linear-gradient(to left, #0FC2C0, #0CABA8,#008F8C);
+}
+
+#site{
+  text-align: center;
+}
+
+.eu{
+  padding: 10px 20px;
+}
+li{
+  display: inline-block;
+  
+}
+
